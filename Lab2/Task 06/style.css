@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;  
+}
+.container{
+    margin: 70px 80px;
+}
+h3{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.nav-button a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 12px 14px;
+    letter-spacing: 0.7px;
+}
+.nav-button a:hover{
+    color: black;
+    background-color: rgb(66,133,244);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1 Website</title>
+</head>
+<body>
+    <header>
+        <ul>
+
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </header>
+ <!--   The <fieldset> tag is used to group related elements in a form. The <fieldset> tag draws a box around the related elements. -->
+    <fieldset>
+        <center> <h1>Feedback Form</h1></center>
+        <legend> <!-- The <legend> tag defines a caption for the <fieldset> element. Browser Support. Element. -->
+            <h4>Please Provide FeedBack</h4>
+        </legend>
+        <!-- The method attribute specifies how to send form-data (the form-data is sent to the page specified 
+            in the action attribute). The form-data can be sent as URL variables (with method="get" ) or 
+            as HTTP post transaction (with method="post" ).-->
+        <center>
+            <form action="postlist" method="post">
+                First Name: <input type="text" placeholder="Enter Your First Name" name="first name" > <br>
+                <br>Last Name: <input type="text" placeholder="Enter Your Last Name" name="last name" > <br>
+                <br>University: <input type="text" name="uni"> <br>
+                <br> Contact No: <input type="number" name="Number" id="">
+                <br>
+                <br> Message: <textarea name="message" placeholder="Write any Message" id="" cols="30" rows="3"></textarea>
+                <br>
+                <!-- Rows defnes visible number of lines in text area-->
+                <!-- Col defines visible width of a text area-->
+                <center>
+                    <br> <input type="submit" value="Submit">
+                </center>
+               
+            </form>
+        </center>
+    </fieldset>
+    
+</body>
+</html>
