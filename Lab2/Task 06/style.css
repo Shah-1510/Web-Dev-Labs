@@ -6,7 +6,7 @@ body{
     height: 100vh;  
 }
 .container{
-    margin: 70px 80px;
+    margin: 40px 50px;
 }
 h3{
     font-family: 'Metrophobic', sans-serif;
@@ -22,11 +22,11 @@ h3{
     text-decoration: none;
     border: 1px solid #1f1f1f;
     border-radius: 10px;
-    background-color: brown;
+    background-color: blue;
     padding: 12px 14px;
     letter-spacing: 0.7px;
 }
 .nav-button a:hover{
     color: black;
-    background-color: rgb(66,133,244);
+    background-color: lightblue;
 }
