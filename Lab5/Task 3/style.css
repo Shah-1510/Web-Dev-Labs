@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+
+   
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000;
+}
+.homebox{
+    margin: 70px;
+    text-align: center;
+}
+.homebox a{
+    border-radius: 30px;
+}
+
+
+a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

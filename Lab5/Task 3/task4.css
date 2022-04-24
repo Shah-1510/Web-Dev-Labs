@@ -1,0 +1,49 @@
+.main{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.same{
+    margin: 8px 5px;
+}
+#num{
+    border-radius: 5px;
+    border: none;
+    border-style: solid;
+    border-top-left-radius: 3px solid black;
+    
+}
+#num,#btn{
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#btn{
+   background-color: lightslategray;
+   color: white;
+   border: none;
+   border-radius: 5px;
+
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+}
+.seqbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+}
+#arrange{
+    padding: 5px;
+}
+.home-box{
+    text-align: center;
+    margin: 80px;
+}
+.home-box a{
+    border-radius: 20px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}

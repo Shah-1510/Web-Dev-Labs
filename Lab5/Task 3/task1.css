@@ -1,0 +1,41 @@
+.main{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.same{
+    margin: 5px;
+}
+#table{
+    border-radius: 5px;
+    border: none;
+    border-style: double;
+    border-top-left-radius: 3px solid black;
+    
+}
+#table,#btn{
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#btn{
+   background-color: lightgray;
+   border: none;
+   border-radius: 10px;
+
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.home-box{
+    text-align: left;
+    margin: 30px;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.h{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    left: 380px;
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    left: 180px;
+
+}
+.taskbox1{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 225px;
+}
+.taskbox2{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 290px;
+}
+.taskbox3{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 260px;
+}
+.taskbox{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 200px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
