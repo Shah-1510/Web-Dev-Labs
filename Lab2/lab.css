@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.h{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    left: 180px;
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    left: 110px;
+
+}
+.taskbox1{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 290px;
+}
+.taskbox2{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 290px;
+}
+.taskbox{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    column-gap: 290px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
